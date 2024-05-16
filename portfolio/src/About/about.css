@@ -1,0 +1,9 @@
+.p-tag {
+  background-color: black;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: aqua;
+}
