@@ -15,7 +15,6 @@
   justify-content: center;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 24px;
 }
 .name {
   font-size: 3.5rem;
@@ -25,7 +24,7 @@
   background-color: #41a4f5;
   grid-column: 1 / 5;
 }
-img {
+.image .img {
   border-radius: 10px;
   margin: 3rem 0rem 3rem 9rem;
   width: 60%;
@@ -38,6 +37,7 @@ img {
   background-color: #3484c4;
   color: whitesmoke;
   font-size: medium;
+  margin-top: 2rem;
 }
 .hite-btn:hover {
   background-color: #0a71c6;

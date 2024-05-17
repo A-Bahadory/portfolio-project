@@ -1,9 +1,13 @@
 import "./card.css";
-function Card() {
+import Frontend from "./Frontend";
+import Backend from "./Backend";
+import Others from "./Others";
+export default function Card() {
   return (
-    <>
-      <p className="card">this is card sections !</p>
-    </>
+    <div className="card-wrapper">
+      <Frontend />
+      <Backend />
+      <Others />
+    </div>
   );
 }
-export default Card;

@@ -1,4 +1,5 @@
 import "./skills.css";
+import Card from "../Card/Card.jsx";
 function Skills() {
   return (
     <div>
@@ -10,9 +11,7 @@ function Skills() {
         </p>
       </div>
       <div className="skill-section">
-        <div className="section-1"> section 1</div>
-        <div className="section-2"> section 2</div>
-        <div className="section-3"> section 3</div>
+        <Card />
       </div>
     </div>
   );
