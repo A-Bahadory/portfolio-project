@@ -4,7 +4,7 @@ import About from "./About/About.jsx";
 import Skills from "./Skills/Skills.jsx";
 import Contact from "./Contact/contact.jsx";
 import Project from "./Project/Project.jsx";
-//import Form from "./Form/Form.jsx";
+import Form from "./Form/Form.jsx";
 //import Footer from "./Footer/Footer.jsx";
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <NavBar />
       <About />
       <Skills />
+      <Form />
       <Contact />
       <Project />
     </>
