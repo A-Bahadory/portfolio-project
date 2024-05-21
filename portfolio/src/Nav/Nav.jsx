@@ -1,36 +1,41 @@
 import "./nav.css";
+import { Icon } from "@iconify/react";
 function NavBar() {
   return (
     <div className="nav">
       <div className="media-section">
         <ul className="nav-list">
+          <li></li>
           <li>
-            <a href="about">github</a>
+            <a href="https://www.linkedin.com/in/a-bahadory/">
+              <Icon icon="entypo-social:linkedin-with-circle" />
+            </a>
           </li>
           <li>
-            <a href="project">lindin</a>
+            <a href="https://github.com/A-Bahadory">
+              <Icon icon="f7:logo-github" />
+            </a>
           </li>
           <li>
-            <a href="resume">whatsapp</a>
-          </li>
-          <li>
-            <a href="contact">facebook</a>
+            <a href="https://x.com/a_bahadory">
+              <Icon icon="arcticons:x-twitter" />
+            </a>
           </li>
         </ul>
       </div>
 
       <ul className="nav-list">
         <li>
-          <a href="about">ABOUT</a>
+          <a href="#/">ABOUT</a>
         </li>
         <li>
-          <a href="project">PROJECTS</a>
+          <a href="#/">PROJECTS</a>
         </li>
         <li>
-          <a href="resume">RESUME</a>
+          <a href="#/">RESUME</a>
         </li>
         <li>
-          <a href="contact">CONTACT</a>
+          <a href="#/">CONTACT</a>
         </li>
       </ul>
     </div>

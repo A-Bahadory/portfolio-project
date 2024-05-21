@@ -1,4 +1,5 @@
 import "./F.css";
+import { Icon } from "@iconify/react";
 export default function Others() {
   return (
     <div className="body">
@@ -12,12 +13,33 @@ export default function Others() {
             />
           </div>
           <div className="content">
-            <h2>Others</h2>
             <ul>
-              <p>JAVASCRIPT</p>
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>REACT</p>
+              <p>Interpreter</p>
+              <p>Culture Mediator</p>
+              <p></p>
+              <p>css</p>
+              <p>JEST</p>
+              <p>Vite</p>
+            </ul>
+            <ul>
+              <div>
+                <Icon icon="skill-icons:react-light" />
+              </div>
+              <div>
+                <Icon icon="vscode-icons:file-type-js-official" />
+              </div>
+              <div>
+                <Icon icon="ph:file-html-thin" />
+              </div>
+              <div>
+                <Icon icon="vaadin:css" />
+              </div>
+              <div>
+                <Icon icon="skill-icons:jest" />
+              </div>
+              <dir>
+                <Icon icon="devicon:vitejs" />
+              </dir>
             </ul>
           </div>
         </div>

@@ -60,6 +60,10 @@
 }
 
 .container .card .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
   position: relative;
   top: -140px;
   padding: 10px 15px;
@@ -72,8 +76,13 @@
 }
 
 .container .card:hover .content {
-  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 66px;
   visibility: visible;
   opacity: 1;
   transition-delay: 0.2s;
+  gap: 1rem;
+  font-size: larger;
 }

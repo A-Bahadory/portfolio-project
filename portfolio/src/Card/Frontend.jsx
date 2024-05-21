@@ -13,21 +13,33 @@ export default function Frontend() {
             />
           </div>
           <div className="content">
-            <h2>Frontend</h2>
             <ul>
-              <p>
-                React <Icon icon="vscode-icons:file-type-reactjs" />
-              </p>
-              <p>
-                JS <Icon icon="logos:nodejs-icon" />
-              </p>
-              <p>
-                HTML
-                <Icon icon="vscode-icons:file-type-htmlhint" />
-              </p>
-              <p>
-                CSS <Icon icon="devicon:css3" />
-              </p>
+              <p>React</p>
+              <p>javaScript(js)</p>
+              <p>HTL</p>
+              <p>css</p>
+              <p>JEST</p>
+              <p>Vite</p>
+            </ul>
+            <ul>
+              <div>
+                <Icon icon="skill-icons:react-light" />
+              </div>
+              <div>
+                <Icon icon="vscode-icons:file-type-js-official" />
+              </div>
+              <div>
+                <Icon icon="ph:file-html-thin" />
+              </div>
+              <div>
+                <Icon icon="vaadin:css" />
+              </div>
+              <div>
+                <Icon icon="skill-icons:jest" />
+              </div>
+              <dir>
+                <Icon icon="devicon:vitejs" />
+              </dir>
             </ul>
           </div>
         </div>
