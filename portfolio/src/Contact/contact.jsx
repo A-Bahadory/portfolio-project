@@ -1,7 +1,12 @@
+import "./style.css";
+import Form from "../Form/Form";
 function Contact() {
   return (
     <>
-      <p>this is contact section !</p>
+      <div className="contact">
+        <p>this is contact section !</p>
+      </div>
+      <Form />
     </>
   );
 }

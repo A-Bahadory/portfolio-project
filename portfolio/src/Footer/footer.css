@@ -2,6 +2,11 @@
   background-color: palevioletred;
 }
 .footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   background-color: #41a4f5;
   width: auto;
   height: 8rem;

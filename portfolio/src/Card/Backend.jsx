@@ -1,4 +1,4 @@
-import "./F.css";
+import "./card-component.css";
 import { Icon } from "@iconify/react";
 export default function Backend() {
   return (
@@ -7,10 +7,7 @@ export default function Backend() {
       <div className="container">
         <div className="card">
           <div className="pokmon-image">
-            <img
-              src="https://media.licdn.com/dms/image/C4D12AQHtD4wKZiCQjw/article-cover_image-shrink_720_1280/0/1635828360297?e=2147483647&v=beta&t=ahlrsevylAiWvPXENssrL_C3ATC78JbIumjtZ9S72gk"
-              alt=""
-            />
+            <img src="backend.webp" alt="" />
           </div>
           <div className="content">
             <ul>

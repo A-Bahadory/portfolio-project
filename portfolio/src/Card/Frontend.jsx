@@ -1,4 +1,4 @@
-import "./F.css";
+import "./card-component.css";
 import { Icon } from "@iconify/react";
 export default function Frontend() {
   return (
@@ -7,10 +7,7 @@ export default function Frontend() {
       <div className="container">
         <div className="card">
           <div className="pokmon-image">
-            <img
-              src="https://bs-uploads.toptal.io/blackfish-uploads/components/seo/5928299/og_image/optimized/op-Ten-Front-End-Design-Rules-For-Developers_Luke-Social-33a3a7c9b759fdaa22973906070f8065.png"
-              alt=""
-            />
+            <img src="frontend_webdeveloper.jpeg" alt="" />
           </div>
           <div className="content">
             <ul>

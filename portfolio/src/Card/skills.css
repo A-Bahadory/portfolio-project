@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container .card {
+  position: relative;
+  max-width: 20rem;
+  height: 9rem;
+  background-color: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+}
+.container .card:hover {
+  /* height: 320px; */
+  height: 280px;
+}
+
+.container .card .pokmon-image {
+  background-color: #e5e5e5;
+  border-radius: 16px;
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -36%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.container .card .pokmon-image img {
+  max-width: 100%;
+  border-radius: 15px;
+  background-color: green;
+}
+
+.container .card .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  top: -140px;
+  padding: 10px 15px;
+  color: #111;
+  text-align: center;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 66px;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.2s;
+  gap: 1rem;
+  font-size: larger;
+}
