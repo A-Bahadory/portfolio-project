@@ -27,6 +27,7 @@ body {
   align-items: center;
   gap: 50px;
   list-style: none;
+  margin-right: 5rem;
 }
 .nav-list a {
   color: inherit;

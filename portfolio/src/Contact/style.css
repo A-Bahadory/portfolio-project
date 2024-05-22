@@ -1,6 +1,15 @@
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: red;
+}
 .contact {
   background-color: green;
-  /* width: auto;
-  height: 40rem; */
-  padding: 5rem;
+  width: 27rem;
+  height: 6rem;
+  border: red 1px solid;
+  gap: 2rem;
 }

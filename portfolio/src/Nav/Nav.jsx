@@ -26,9 +26,6 @@ function NavBar() {
 
       <ul className="nav-list">
         <li>
-          <a href="#/">ABOUT</a>
-        </li>
-        <li>
           <a href="Bahadory-CV.pdf" target="_blank">
             RESUME
           </a>
