@@ -1,4 +1,4 @@
-//import "./skills.css";
+import "./card-component.css";
 export default function Others() {
   return (
     <div className="body">
@@ -9,11 +9,31 @@ export default function Others() {
             <img className="skill-img" src="skills.webp" alt="" />
           </div>
           <div className="content">
-            <a href="https://fullstack-project-team.netlify.app">
-              Full stack team project
-            </a>
             <ul>
-              <a href="https://cyf-a-bahadory-tv.netlify.app">TV SHOW</a>
+              <div>
+                <a
+                  style={{
+                    "text-decoration": "none",
+                    color: "black",
+                  }}
+                  href="https://fullstack-project-team.netlify.app"
+                  target="_blank"
+                >
+                  Full Stack team project
+                </a>
+              </div>
+              <div>
+                <a
+                  style={{
+                    "text-decoration": "none",
+                    color: "black",
+                  }}
+                  href="https://cyf-a-bahadory-tv.netlify.app"
+                  target="_blank"
+                >
+                  TV Show
+                </a>
+              </div>
             </ul>
           </div>
         </div>

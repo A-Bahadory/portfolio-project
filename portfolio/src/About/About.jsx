@@ -14,7 +14,18 @@ function About() {
           and strong cultural awareness.
         </hi>
         <div>
-          <button className="hire-btn">Hire Me</button>
+          <button className="hire-btn">
+            <a
+              style={{
+                textDecoration: "none",
+                color: "white",
+              }}
+              href="Bahadory-CV.pdf"
+              target="_blank"
+            >
+              Hire Me
+            </a>
+          </button>
         </div>
       </div>
     </div>
