@@ -13,3 +13,11 @@
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media only screen and (width: 390px) and (height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .footer-wrapper {
+    background-color: #41a4f5;
+    width: 34.5rem;
+    height: 9rem;
+  }
+}

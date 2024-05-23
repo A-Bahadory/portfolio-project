@@ -38,3 +38,22 @@ body {
   padding: 0;
   margin: 0;
 }
+
+@media only screen and (width: 390px) and (height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    width: 34.5rem;
+    height: 9rem;
+    background-color: #0a71c6;
+  }
+  .media-section {
+    display: flex;
+    justify-content: start;
+    margin-top: 2rem;
+  }
+  .nav-list {
+    font-size: larger;
+    font-weight: 200;
+  }
+}
