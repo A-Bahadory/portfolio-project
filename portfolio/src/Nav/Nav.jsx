@@ -30,10 +30,6 @@ function NavBar() {
             RESUME
           </a>
         </li>
-
-        <li>
-          <a href="#/">CONTACT</a>
-        </li>
       </ul>
     </div>
   );
