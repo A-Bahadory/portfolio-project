@@ -62,4 +62,11 @@ body {
     font-size: larger;
     font-weight: 200;
   }
+  .resume {
+    padding: 1rem;
+    margin-bottom: 14px;
+  }
+  .resume:hover {
+    background-color: orange;
+  }
 }
