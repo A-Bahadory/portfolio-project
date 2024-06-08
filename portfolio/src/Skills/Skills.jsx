@@ -2,7 +2,7 @@ import "./skills.css";
 import Card from "../Card/Card.jsx";
 function Skills() {
   return (
-    <div>
+    <>
       <div className="skills-overview">
         <h1>Skills Overview</h1>
         <p>
@@ -13,7 +13,7 @@ function Skills() {
       <div className="skill-section">
         <Card />
       </div>
-    </div>
+    </>
   );
 }
 export default Skills;

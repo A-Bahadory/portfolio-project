@@ -5,10 +5,8 @@
   padding-top: 6rem;
 }
 
-@media only screen and (width: 390px) and (height: 844px) and (-webkit-device-pixel-ratio: 3) {
+@media (max-width: 500px) {
   .card-wrapper {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 }

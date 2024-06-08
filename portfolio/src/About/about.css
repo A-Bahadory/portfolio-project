@@ -47,37 +47,28 @@
   cursor: pointer;
 }
 
-@media only screen and (width: 390px) and (height: 844px) and (-webkit-device-pixel-ratio: 3) {
+@media (max-width: 500px) {
   .about {
-    background-color: #41a4f5;
-    display: flex;
-    flex-direction: column;
-    width: 34.5rem;
-    height: 31rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2 1fr);
   }
   .summery {
-    background-color: #41a4f5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 0rem 2rem;
     justify-content: center;
-    width: 34.5rem;
-    height: 10rem;
-    font-size: 7px;
-    padding: 2rem;
-    line-height: 23px;
+    align-items: center;
   }
-  .p-tag {
-    font-size: 12px;
+  .image {
+    width: 100%;
+    height: auto;
   }
   .image .img {
-    margin: 1rem 8rem 2rem 6rem;
+    border-radius: 10px;
+    margin: 2rem 0rem 0rem 0rem;
+    width: 63%;
+    height: 70%;
   }
-  .name {
-    font-size: 20px;
-  }
-  .hire-btn:hover {
-    background-color: #0a71c6;
-    cursor: pointer;
+  .hire-btn {
+    margin-bottom: 1rem;
   }
 }

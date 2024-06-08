@@ -9,8 +9,6 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(1, 3rem);
   justify-content: space-between;
-  /* height: auto;
-  width: auto; */
   color: white;
   background-color: #0a71c6;
 }
@@ -45,28 +43,17 @@ body {
   margin: 0;
 }
 
-@media only screen and (width: 390px) and (height: 844px) and (-webkit-device-pixel-ratio: 3) {
+@media (max-width: 500px) {
   .nav {
-    display: flex;
-    flex-direction: column;
-    width: 34.5rem;
-    height: 9rem;
-    background-color: #0a71c6;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
   }
   .media-section {
-    display: flex;
-    justify-content: start;
-    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
   }
   .nav-list {
-    font-size: larger;
-    font-weight: 200;
-  }
-  .resume {
-    padding: 1rem;
-    margin-bottom: 14px;
-  }
-  .resume:hover {
-    background-color: orange;
+    justify-content: start;
+    align-items: start;
   }
 }

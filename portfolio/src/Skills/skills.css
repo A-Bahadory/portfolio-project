@@ -22,20 +22,13 @@
   gap: 1rem;
 }
 
-@media only screen and (width: 390px) and (height: 844px) and (-webkit-device-pixel-ratio: 3) {
-  .skill-section {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 34.5rem;
-    height: 60rem;
-  }
+@media (max-width: 500px) {
   .skills-overview {
-    background-color: white;
-    width: 34.5rem;
-    height: 8rem;
-    padding: 2rem;
+    font-size: larger;
+    padding: 1rem 2rem;
+    height: auto;
+  }
+  .skill-section {
+    height: auto;
   }
 }
