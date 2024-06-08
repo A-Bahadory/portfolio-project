@@ -22,6 +22,17 @@
   gap: 1rem;
 }
 
+@media (max-width: 800px) {
+  .skills-overview {
+    font-size: larger;
+    padding: 1rem 2rem;
+    height: auto;
+  }
+  .skill-section {
+    height: auto;
+  }
+}
+
 @media (max-width: 500px) {
   .skills-overview {
     font-size: larger;

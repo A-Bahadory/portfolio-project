@@ -43,6 +43,21 @@ body {
   margin: 0;
 }
 
+@media (max-width: 800px) {
+  .nav {
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .media-section {
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-list {
+    justify-content: start;
+    align-items: start;
+  }
+}
+
 @media (max-width: 500px) {
   .nav {
     align-items: center;

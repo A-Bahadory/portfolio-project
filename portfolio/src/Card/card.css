@@ -5,6 +5,12 @@
   padding-top: 6rem;
 }
 
+@media (max-width: 800px) {
+  .card-wrapper {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 500px) {
   .card-wrapper {
     flex-direction: column;
