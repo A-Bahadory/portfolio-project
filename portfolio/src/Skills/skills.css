@@ -24,12 +24,20 @@
 
 @media (max-width: 800px) {
   .skills-overview {
-    font-size: larger;
+    font-size: 25px;
     padding: 1rem 2rem;
-    height: auto;
+    height: 23rem;
+    width: auto;
+    gap: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .skills-overview .h1 {
+    margin-top: 5rem;
+    background-color: blue;
   }
   .skill-section {
     height: auto;
+    width: auto;
   }
 }
 

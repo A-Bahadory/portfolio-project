@@ -2,7 +2,7 @@ import "./about.css";
 function About() {
   return (
     <div className="about">
-      <div className="image">
+      <div className="image-cover">
         <img className="img" src="photo.jpeg" alt="" />
       </div>
       <div className="summery">

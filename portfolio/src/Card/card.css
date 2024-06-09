@@ -8,6 +8,7 @@
 @media (max-width: 800px) {
   .card-wrapper {
     flex-direction: column;
+    padding-bottom: 4rem;
   }
 }
 
