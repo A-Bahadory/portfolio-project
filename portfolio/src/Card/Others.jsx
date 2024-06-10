@@ -1,4 +1,4 @@
-import "./card-component.css";
+// import "./card-component.css";
 export default function Others() {
   return (
     <div className="body">
@@ -12,10 +12,6 @@ export default function Others() {
             <ul>
               <div>
                 <a
-                  style={{
-                    "text-decoration": "none",
-                    color: "black",
-                  }}
                   href="https://fullstack-project-team.netlify.app"
                   target="_blank"
                 >
@@ -23,14 +19,7 @@ export default function Others() {
                 </a>
               </div>
               <div>
-                <a
-                  style={{
-                    "text-decoration": "none",
-                    color: "black",
-                  }}
-                  href="https://cyf-a-bahadory-tv.netlify.app"
-                  target="_blank"
-                >
+                <a href="https://cyf-a-bahadory-tv.netlify.app" target="_blank">
                   TV Show
                 </a>
               </div>

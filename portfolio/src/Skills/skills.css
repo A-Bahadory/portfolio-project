@@ -1,9 +1,6 @@
-.skills {
-  background-color: red;
-}
 .skill-section {
   width: auto;
-  height: 28rem;
+  height: 36rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -17,18 +14,22 @@
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 6rem;
+  height: 22rem;
   background-color: white;
-  gap: 1rem;
+  font-size: 25px;
+  line-height: 40px;
+}
+.skills-overview-h1 {
+  margin-bottom: 5rem;
 }
 
+/* tablet style section */
 @media (max-width: 800px) {
   .skills-overview {
     font-size: 25px;
-    padding: 1rem 2rem;
+    padding: 8.7rem;
     height: 23rem;
     width: auto;
-    gap: 58px;
     font-family: Arial, Helvetica, sans-serif;
   }
   .skills-overview .h1 {
@@ -41,10 +42,9 @@
   }
 }
 
+/* mobile style section */
 @media (max-width: 500px) {
   .skills-overview {
-    font-size: larger;
-    padding: 1rem 2rem;
     height: auto;
   }
   .skill-section {

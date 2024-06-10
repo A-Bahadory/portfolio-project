@@ -32,5 +32,6 @@
 @media (max-width: 500px) {
   .footer-wrapper {
     height: auto;
+    padding: 2rem;
   }
 }
