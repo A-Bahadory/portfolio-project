@@ -1,8 +1,10 @@
 .card-wrapper {
+  width: auto;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 6rem;
+  background-color: white;
 }
 
 @media (max-width: 800px) {

@@ -2,9 +2,9 @@ import "./about.css";
 function About() {
   return (
     <div className="about">
-      <div className="image-cover">
-        <img className="img" src="photo.jpeg" alt="" />
-      </div>
+      <img className="img" src="photo.jpeg" alt="" />
+      {/* <div className="image-cover">
+      </div> */}
       <div className="summery">
         <p>Hello, my name is</p>
         <h1 className="name">Ahmadzay Bahadory</h1>

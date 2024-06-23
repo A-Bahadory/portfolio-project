@@ -45,9 +45,11 @@
 /* mobile style section */
 @media (max-width: 500px) {
   .skills-overview {
+    padding: 2.7rem;
     height: auto;
   }
   .skill-section {
     height: auto;
+    width: auto;
   }
 }

@@ -45,22 +45,25 @@ body {
 }
 
 @media (max-width: 800px) {
-  .nav {
-  }
   .media-section {
     justify-content: center;
     align-items: center;
   }
 
-  .nav-list {
-    justify-content: start;
-    align-items: start;
-  }
   .resume {
     padding: 0.5rem 1rem;
     margin: 1rem 2rem;
     font-weight: 600;
     border: solid 0.5px orange;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+  }
+  .media-section {
+    margin-top: 2rem;
   }
 }

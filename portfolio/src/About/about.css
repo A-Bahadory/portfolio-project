@@ -1,19 +1,28 @@
 .about {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(1, 21rem);
+  background-color: #41a4f5;
+  display: flex;
   color: whitesmoke;
+  /* display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(1, 21rem); */
+}
+.img {
+  background-color: #41a4f5;
+  /* border-radius: 10px; */
+  /* margin: 7vw 0vw 20px 13vw; */
+  max-width: 100%;
+  width: 30%;
+  height: auto;
 }
 .summery {
   padding: 6rem 3rem;
-  background-color: #41a4f5;
-  grid-column: 5 / -1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  background-color: #41a4f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .summery-text {
   font-size: 20px;
@@ -24,16 +33,20 @@
   font-size: 3.5rem;
   font-family: monospace;
 }
-.image-cover {
+/* .image-cover {
+  background-color: yellow;
+  width: auto;
+  height: auto;
   background-color: #41a4f5;
+
   grid-column: 1 / 5;
-}
-.image-cover .img {
+} */
+/* .image-cover .img {
   border-radius: 10px;
   margin: 3rem 0rem 3rem 9rem;
   width: 63%;
   height: 69%;
-}
+} */
 .hire-btn {
   padding: 0.6rem 2rem;
   border: none;
@@ -51,24 +64,26 @@
 /* tablet section */
 @media (max-width: 800px) {
   .about {
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(1, 21rem);
+    flex-direction: column;
   }
   .summery {
-    grid-column: 1 / -1;
+    background-color: #41a4f5;
+    /* grid-column: 1 / -1; */
     padding: 2rem;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .image-cover {
+  /* .image-cover {
+    background-color: red;
     display: flex;
     flex-direction: start;
     grid-column: 1/-1;
-  }
-  .image-cover .img {
-    width: auto;
-    height: 80%;
-    margin-left: 2rem;
-    margin-top: 1rem;
+  } */
+
+  .img {
+    border-radius: 35%;
+    margin: 7vw 0vw 0vw 4vw;
+    width: 40%;
+    height: auto;
   }
   .hire-btn {
     font-weight: 700;
@@ -81,25 +96,35 @@
 /* mobile section */
 @media (max-width: 500px) {
   .about {
-    display: grid;
+    flex-direction: column;
+    /* display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2 1fr);
+    grid-template-rows: repeat(2 1fr); */
   }
   .summery {
+    background-color: #41a4f5;
     padding: 0rem 2rem;
     justify-content: center;
     align-items: center;
   }
-  /* .image {
-    width: 100%;
+  .img {
+    border-radius: 16%;
+    margin: 4vw 0vw 4vw 27vw;
+    width: 50%;
     height: auto;
+  }
+
+  /* .image-cover {
+    width: auto;
+    height: auto;
+    background-color: green;
   } */
-  .image-cover .img {
+  /* .image-cover .img {
     width: auto;
     height: 66%;
     margin-left: 5.5rem;
     margin-top: 3rem;
-  }
+  } */
   .hire-btn {
     margin-bottom: 1rem;
   }

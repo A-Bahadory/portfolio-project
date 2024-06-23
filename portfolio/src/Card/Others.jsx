@@ -1,4 +1,4 @@
-// import "./card-component.css";
+import "./card-component.css";
 export default function Others() {
   return (
     <div className="body">
@@ -6,7 +6,7 @@ export default function Others() {
       <div className="container">
         <div className="card">
           <div className="pokmon-image">
-            <img className="skill-img" src="skills.webp" alt="" />
+            <img src="skills.webp" alt="" />
           </div>
           <div className="content">
             <ul>
