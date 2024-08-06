@@ -13,9 +13,9 @@ export default function Frontend() {
             <ul>
               <p>React</p>
               <p>javaScript(js)</p>
-              <p>HTL</p>
-              <p>css</p>
-              <p>JEST</p>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Jest</p>
               <p>Vite</p>
             </ul>
             <ul>
