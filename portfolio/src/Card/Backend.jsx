@@ -15,6 +15,7 @@ export default function Backend() {
               <p>postgreSQL</p>
               <p>SQL</p>
               <p>git</p>
+              <p>github</p>
             </ul>
             <ul>
               <div>
@@ -28,6 +29,9 @@ export default function Backend() {
               </div>
               <div>
                 <Icon icon="skill-icons:git" />{" "}
+              </div>
+              <div>
+                <Icon icon="bxl:github" style="color: black" />
               </div>
             </ul>
           </div>
