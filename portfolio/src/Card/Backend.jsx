@@ -31,7 +31,7 @@ export default function Backend() {
                 <Icon icon="skill-icons:git" />{" "}
               </div>
               <div>
-                <Icon icon="bxl:github" style="color: black" />
+                <Icon icon="bxl:github" />
               </div>
             </ul>
           </div>
